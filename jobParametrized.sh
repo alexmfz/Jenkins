@@ -7,7 +7,7 @@ do
     if [ "$a" -eq 8 ]
     then
         sleep 5
-        echo "Descansando... $nombre"
+        echo "Descansando mucho... $nombre"
     fi
     echo "Clase Nº $a"
 done
