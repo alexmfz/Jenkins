@@ -13,4 +13,4 @@ do
 done
 
 sleep 3
-echo "Bien $nombre!!!!. Terminamos la clase de $curso. Suerte!!"
+echo "Bien $nombre!!!!!!. Terminamos la clase de $curso. Suerte!!"
