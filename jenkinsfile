@@ -12,7 +12,8 @@ node {
      }
    }
    stage('Docker Build & Push') {
-     docker.withRegistry('https://registry.hub.docker.com', 'docker-hub') {
+      sh "echo '${gitcommit}'"
+      docker.withRegistry('https://registry.hub.docker.com', 'docker-hub') {
       def nuestraapp = docker.build("nataelmf/nodejsapppipeline:${gitcommit}", ".")
       nuestraapp.push()
      }
