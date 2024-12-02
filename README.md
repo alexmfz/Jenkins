@@ -1,2 +1,3 @@
-# Jenkins
-Jenkins course
+# nodejspipeline
+
+Aplicación Hello-World en nodeJS con pipeline
